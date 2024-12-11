@@ -16,6 +16,7 @@ COPY packages/core/tsconfig.json ./packages/core/
 COPY packages/core/tsup.config.ts ./packages/core/
 COPY agent/src ./agent/src
 COPY agent/tsconfig.json ./agent/
+COPY agent/tsup.config.ts ./agent/
 
 # Build packages
 RUN cd packages/core && pnpm run build && \
