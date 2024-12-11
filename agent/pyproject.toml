@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "eliza-agent"
+version = "0.1.0"
+description = "Eliza Agent Runtime"
+authors = ["Devin <devin@intuition.systems>"]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.109.0"
+uvicorn = "^0.27.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
