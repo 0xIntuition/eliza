@@ -231,7 +231,7 @@ importers:
         version: 1.0.7(tailwindcss@3.4.15(ts-node@10.9.2(@swc/core@1.10.1(@swc/helpers@0.5.15))(@types/node@22.8.4)(typescript@5.6.3)))
       vite-plugin-top-level-await:
         specifier: 1.4.4
-        version: 1.4.4(@swc/helpers@0.5.15)(rollup@4.28.1)(vite@client+@tanstack+router-plugin+vite)
+        version: 1.4.4(@swc/helpers@0.5.15)(rollup@2.79.2)(vite@client+@tanstack+router-plugin+vite)
       vite-plugin-wasm:
         specifier: 3.3.0
         version: 3.3.0(vite@client+@tanstack+router-plugin+vite)
@@ -283,22 +283,22 @@ importers:
     dependencies:
       '@docusaurus/core':
         specifier: 3.6.3
-        version: 3.6.3(@mdx-js/react@3.0.1(@types/react@18.3.12)(react@18.3.1))(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(bufferutil@4.0.8)(eslint@9.16.0(jiti@2.4.0))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)(utf-8-validate@5.0.10)
+        version: 3.6.3(@mdx-js/react@3.0.1(@types/react@18.3.12)(react@18.3.1))(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(bufferutil@4.0.8)(eslint@8.57.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)(utf-8-validate@5.0.10)
       '@docusaurus/plugin-content-blog':
         specifier: 3.6.3
-        version: 3.6.3(@docusaurus/plugin-content-docs@3.6.3(@mdx-js/react@3.0.1(@types/react@18.3.12)(react@18.3.1))(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(bufferutil@4.0.8)(eslint@9.16.0(jiti@2.4.0))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)(utf-8-validate@5.0.10))(@mdx-js/react@3.0.1(@types/react@18.3.12)(react@18.3.1))(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(bufferutil@4.0.8)(eslint@9.16.0(jiti@2.4.0))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)(utf-8-validate@5.0.10)
+        version: 3.6.3(@docusaurus/plugin-content-docs@3.6.3(@mdx-js/react@3.0.1(@types/react@18.3.12)(react@18.3.1))(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(bufferutil@4.0.8)(eslint@8.57.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)(utf-8-validate@5.0.10))(@mdx-js/react@3.0.1(@types/react@18.3.12)(react@18.3.1))(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(bufferutil@4.0.8)(eslint@8.57.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)(utf-8-validate@5.0.10)
       '@docusaurus/plugin-content-docs':
         specifier: 3.6.3
-        version: 3.6.3(@mdx-js/react@3.0.1(@types/react@18.3.12)(react@18.3.1))(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(bufferutil@4.0.8)(eslint@9.16.0(jiti@2.4.0))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)(utf-8-validate@5.0.10)
+        version: 3.6.3(@mdx-js/react@3.0.1(@types/react@18.3.12)(react@18.3.1))(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(bufferutil@4.0.8)(eslint@8.57.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)(utf-8-validate@5.0.10)
       '@docusaurus/plugin-ideal-image':
         specifier: 3.6.3
-        version: 3.6.3(@mdx-js/react@3.0.1(@types/react@18.3.12)(react@18.3.1))(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(bufferutil@4.0.8)(eslint@9.16.0(jiti@2.4.0))(prop-types@15.8.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)(utf-8-validate@5.0.10)
+        version: 3.6.3(@mdx-js/react@3.0.1(@types/react@18.3.12)(react@18.3.1))(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(bufferutil@4.0.8)(eslint@8.57.1)(prop-types@15.8.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)(utf-8-validate@5.0.10)
       '@docusaurus/preset-classic':
         specifier: 3.6.3
-        version: 3.6.3(@algolia/client-search@5.16.0)(@mdx-js/react@3.0.1(@types/react@18.3.12)(react@18.3.1))(@swc/core@1.10.1(@swc/helpers@0.5.15))(@types/react@18.3.12)(acorn@8.14.0)(bufferutil@4.0.8)(eslint@9.16.0(jiti@2.4.0))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(search-insights@2.17.3)(typescript@5.6.3)(utf-8-validate@5.0.10)
+        version: 3.6.3(@algolia/client-search@5.16.0)(@mdx-js/react@3.0.1(@types/react@18.3.12)(react@18.3.1))(@swc/core@1.10.1(@swc/helpers@0.5.15))(@types/react@18.3.12)(acorn@8.14.0)(bufferutil@4.0.8)(eslint@8.57.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(search-insights@2.17.3)(typescript@5.6.3)(utf-8-validate@5.0.10)
       '@docusaurus/theme-mermaid':
         specifier: 3.6.3
-        version: 3.6.3(@docusaurus/plugin-content-docs@3.6.3(@mdx-js/react@3.0.1(@types/react@18.3.12)(react@18.3.1))(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(bufferutil@4.0.8)(eslint@9.16.0(jiti@2.4.0))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)(utf-8-validate@5.0.10))(@mdx-js/react@3.0.1(@types/react@18.3.12)(react@18.3.1))(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(bufferutil@4.0.8)(eslint@9.16.0(jiti@2.4.0))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)(utf-8-validate@5.0.10)
+        version: 3.6.3(@docusaurus/plugin-content-docs@3.6.3(@mdx-js/react@3.0.1(@types/react@18.3.12)(react@18.3.1))(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(bufferutil@4.0.8)(eslint@8.57.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)(utf-8-validate@5.0.10))(@mdx-js/react@3.0.1(@types/react@18.3.12)(react@18.3.1))(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(bufferutil@4.0.8)(eslint@8.57.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)(utf-8-validate@5.0.10)
       '@mdx-js/react':
         specifier: 3.0.1
         version: 3.0.1(@types/react@18.3.12)(react@18.3.1)
@@ -307,7 +307,7 @@ importers:
         version: 2.1.1
       docusaurus-lunr-search:
         specifier: 3.5.0
-        version: 3.5.0(@docusaurus/core@3.6.3(@mdx-js/react@3.0.1(@types/react@18.3.12)(react@18.3.1))(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(bufferutil@4.0.8)(eslint@9.16.0(jiti@2.4.0))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)(utf-8-validate@5.0.10))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        version: 3.5.0(@docusaurus/core@3.6.3(@mdx-js/react@3.0.1(@types/react@18.3.12)(react@18.3.1))(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(bufferutil@4.0.8)(eslint@8.57.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)(utf-8-validate@5.0.10))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       prism-react-renderer:
         specifier: 2.3.1
         version: 2.3.1(react@18.3.1)
@@ -585,7 +585,7 @@ importers:
         version: 8.57.1
       jest:
         specifier: ^29.0.0
-        version: 29.7.0(@types/node@20.17.9)
+        version: 29.7.0(@types/node@20.17.9)(ts-node@10.9.2(@swc/core@1.10.1(@swc/helpers@0.5.15))(@types/node@20.17.9)(typescript@5.6.3))
       typescript:
         specifier: ^5.0.0
         version: 5.6.3
@@ -683,7 +683,7 @@ importers:
         version: 1.0.15
       langchain:
         specifier: 0.3.6
-        version: 0.3.6(@langchain/core@0.3.22(openai@4.73.0(encoding@0.1.13)(zod@3.23.8)))(axios@1.7.8)(encoding@0.1.13)(handlebars@4.7.8)(openai@4.73.0(encoding@0.1.13)(zod@3.23.8))
+        version: 0.3.6(@langchain/core@0.3.22(openai@4.73.0(encoding@0.1.13)(zod@3.23.8)))(axios@1.7.8)(cheerio@1.0.0-rc.12)(encoding@0.1.13)(handlebars@4.7.8)(openai@4.73.0(encoding@0.1.13)(zod@3.23.8))
       ollama-ai-provider:
         specifier: 0.16.1
         version: 0.16.1(zod@3.23.8)
@@ -783,7 +783,7 @@ importers:
         version: 2.79.2
       ts-jest:
         specifier: 29.2.5
-        version: 29.2.5(@babel/core@7.26.0)(@jest/transform@29.7.0)(@jest/types@29.6.3)(babel-jest@29.7.0(@babel/core@7.26.0))(jest@29.7.0(@types/node@22.8.4)(ts-node@10.9.2(@swc/core@1.10.1(@swc/helpers@0.5.15))(@types/node@22.8.4)(typescript@5.6.3)))(typescript@5.6.3)
+        version: 29.2.5(@babel/core@7.26.0)(@jest/transform@29.7.0)(@jest/types@29.6.3)(babel-jest@29.7.0(@babel/core@7.26.0))(esbuild@0.24.0)(jest@29.7.0(@types/node@22.8.4)(ts-node@10.9.2(@swc/core@1.10.1(@swc/helpers@0.5.15))(@types/node@22.8.4)(typescript@5.6.3)))(typescript@5.6.3)
       ts-node:
         specifier: 10.9.2
         version: 10.9.2(@swc/core@1.10.1(@swc/helpers@0.5.15))(@types/node@22.8.4)(typescript@5.6.3)
@@ -859,7 +859,7 @@ importers:
         version: 8.3.5(@swc/core@1.10.1(@swc/helpers@0.5.15))(jiti@2.4.0)(postcss@8.4.49)(typescript@5.6.3)(yaml@2.6.1)
       vitest:
         specifier: 2.1.4
-        version: 2.1.4(@types/node@22.8.4)(jsdom@25.0.1(bufferutil@4.0.8)(canvas@2.11.2(encoding@0.1.13))(utf-8-validate@5.0.10))(terser@5.37.0)
+        version: 2.1.4(@types/node@20.17.9)(jsdom@25.0.1(bufferutil@4.0.8)(canvas@2.11.2(encoding@0.1.13))(utf-8-validate@5.0.10))(terser@5.37.0)
       whatwg-url:
         specifier: 7.1.0
         version: 7.1.0
@@ -913,18 +913,6 @@ importers:
         specifier: 0.7.1
         version: 0.7.1(bufferutil@4.0.8)(typescript@5.6.3)(utf-8-validate@5.0.10)
 
-  packages/plugin-dominos:
-    dependencies:
-      '@ai16z/eliza':
-        specifier: workspace:*
-        version: link:../core
-      tsup:
-        specifier: 8.3.5
-        version: 8.3.5(@swc/core@1.10.1(@swc/helpers@0.5.15))(jiti@2.4.0)(postcss@8.4.49)(typescript@5.6.3)(yaml@2.6.1)
-      whatwg-url:
-        specifier: 7.1.0
-        version: 7.1.0
-
   packages/plugin-evm:
     dependencies:
       '@ai16z/eliza':
@@ -965,7 +953,7 @@ importers:
         version: 1.5.1
       '@onflow/fcl':
         specifier: 1.13.1
-        version: 1.13.1(@types/react@18.3.12)(bufferutil@4.0.8)(encoding@0.1.13)(google-protobuf@3.21.4)(jiti@2.4.0)(postcss@8.4.49)(react@18.3.1)(utf-8-validate@5.0.10)
+        version: 1.13.1(@types/react@18.3.12)(bufferutil@4.0.8)(encoding@0.1.13)(google-protobuf@3.21.4)(jiti@2.4.0)(postcss@8.4.49)(react@18.3.1)(ts-node@10.9.2(@swc/core@1.10.1(@swc/helpers@0.5.15))(@types/node@20.17.9)(typescript@5.6.3))(utf-8-validate@5.0.10)
       '@onflow/typedefs':
         specifier: 1.4.0
         version: 1.4.0
@@ -1005,7 +993,7 @@ importers:
         version: 8.3.5(@swc/core@1.10.1(@swc/helpers@0.5.15))(jiti@2.4.0)(postcss@8.4.49)(typescript@5.6.3)(yaml@2.6.1)
       vitest:
         specifier: 2.1.4
-        version: 2.1.4(@types/node@22.8.4)(jsdom@25.0.1(bufferutil@4.0.8)(canvas@2.11.2(encoding@0.1.13))(utf-8-validate@5.0.10))(terser@5.37.0)
+        version: 2.1.4(@types/node@20.17.9)(jsdom@25.0.1(bufferutil@4.0.8)(canvas@2.11.2(encoding@0.1.13))(utf-8-validate@5.0.10))(terser@5.37.0)
 
   packages/plugin-goat:
     dependencies:
@@ -1054,7 +1042,7 @@ importers:
         version: 29.5.14
       jest:
         specifier: 29.7.0
-        version: 29.7.0(@types/node@22.8.4)
+        version: 29.7.0(@types/node@20.17.9)(ts-node@10.9.2(@swc/core@1.10.1(@swc/helpers@0.5.15))(@types/node@20.17.9)(typescript@5.6.3))
       tsup:
         specifier: 8.3.5
         version: 8.3.5(@swc/core@1.10.1(@swc/helpers@0.5.15))(jiti@2.4.0)(postcss@8.4.49)(typescript@5.6.3)(yaml@2.6.1)
@@ -1307,13 +1295,13 @@ importers:
         version: 5.1.2
       pumpdotfun-sdk:
         specifier: 1.3.2
-        version: 1.3.2(bufferutil@4.0.8)(encoding@0.1.13)(fastestsmallesttextencoderdecoder@1.0.22)(rollup@4.28.1)(typescript@5.6.3)(utf-8-validate@5.0.10)
+        version: 1.3.2(bufferutil@4.0.8)(encoding@0.1.13)(fastestsmallesttextencoderdecoder@1.0.22)(rollup@2.79.2)(typescript@5.6.3)(utf-8-validate@5.0.10)
       tsup:
         specifier: 8.3.5
         version: 8.3.5(@swc/core@1.10.1(@swc/helpers@0.5.15))(jiti@2.4.0)(postcss@8.4.49)(typescript@5.6.3)(yaml@2.6.1)
       vitest:
         specifier: 2.1.4
-        version: 2.1.4(@types/node@22.8.4)(jsdom@25.0.1(bufferutil@4.0.8)(canvas@2.11.2(encoding@0.1.13))(utf-8-validate@5.0.10))(terser@5.37.0)
+        version: 2.1.4(@types/node@20.17.9)(jsdom@25.0.1(bufferutil@4.0.8)(canvas@2.11.2(encoding@0.1.13))(utf-8-validate@5.0.10))(terser@5.37.0)
       whatwg-url:
         specifier: 7.1.0
         version: 7.1.0
@@ -1343,7 +1331,7 @@ importers:
         version: 8.3.5(@swc/core@1.10.1(@swc/helpers@0.5.15))(jiti@2.4.0)(postcss@8.4.49)(typescript@5.6.3)(yaml@2.6.1)
       vitest:
         specifier: 2.1.5
-        version: 2.1.5(@types/node@22.8.4)(jsdom@25.0.1(bufferutil@4.0.8)(canvas@2.11.2(encoding@0.1.13))(utf-8-validate@5.0.10))(terser@5.37.0)
+        version: 2.1.5(@types/node@20.17.9)(jsdom@25.0.1(bufferutil@4.0.8)(canvas@2.11.2(encoding@0.1.13))(utf-8-validate@5.0.10))(terser@5.37.0)
       whatwg-url:
         specifier: 7.1.0
         version: 7.1.0
@@ -1376,7 +1364,7 @@ importers:
         version: 5.1.2
       pumpdotfun-sdk:
         specifier: 1.3.2
-        version: 1.3.2(bufferutil@4.0.8)(encoding@0.1.13)(fastestsmallesttextencoderdecoder@1.0.22)(rollup@4.28.1)(typescript@5.6.3)(utf-8-validate@5.0.10)
+        version: 1.3.2(bufferutil@4.0.8)(encoding@0.1.13)(fastestsmallesttextencoderdecoder@1.0.22)(rollup@2.79.2)(typescript@5.6.3)(utf-8-validate@5.0.10)
       tsup:
         specifier: 8.3.5
         version: 8.3.5(@swc/core@1.10.1(@swc/helpers@0.5.15))(jiti@2.4.0)(postcss@8.4.49)(typescript@5.6.3)(yaml@2.6.1)
@@ -1403,7 +1391,7 @@ importers:
         version: 11.0.3
       vitest:
         specifier: 2.1.5
-        version: 2.1.5(@types/node@22.8.4)(jsdom@25.0.1(bufferutil@4.0.8)(canvas@2.11.2(encoding@0.1.13))(utf-8-validate@5.0.10))(terser@5.37.0)
+        version: 2.1.5(@types/node@20.17.9)(jsdom@25.0.1(bufferutil@4.0.8)(canvas@2.11.2(encoding@0.1.13))(utf-8-validate@5.0.10))(terser@5.37.0)
       whatwg-url:
         specifier: 7.1.0
         version: 7.1.0
@@ -1459,10 +1447,10 @@ importers:
         version: 8.16.0(eslint@9.16.0(jiti@2.4.0))(typescript@5.6.3)
       jest:
         specifier: 29.7.0
-        version: 29.7.0(@types/node@20.17.9)
+        version: 29.7.0(@types/node@20.17.9)(ts-node@10.9.2(@swc/core@1.10.1(@swc/helpers@0.5.15))(@types/node@20.17.9)(typescript@5.6.3))
       ts-jest:
         specifier: 29.2.5
-        version: 29.2.5(@babel/core@7.26.0)(@jest/transform@29.7.0)(@jest/types@29.6.3)(babel-jest@29.7.0(@babel/core@7.26.0))(jest@29.7.0(@types/node@20.17.9))(typescript@5.6.3)
+        version: 29.2.5(@babel/core@7.26.0)(@jest/transform@29.7.0)(@jest/types@29.6.3)(babel-jest@29.7.0(@babel/core@7.26.0))(jest@29.7.0(@types/node@20.17.9)(ts-node@10.9.2(@swc/core@1.10.1(@swc/helpers@0.5.15))(@types/node@20.17.9)(typescript@5.6.3)))(typescript@5.6.3)
       typescript:
         specifier: 5.6.3
         version: 5.6.3
@@ -19394,7 +19382,7 @@ snapshots:
       - uglify-js
       - webpack-cli
 
-  '@docusaurus/bundler@3.6.3(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(eslint@9.16.0(jiti@2.4.0))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)':
+  '@docusaurus/bundler@3.6.3(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(eslint@8.57.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)':
     dependencies:
       '@babel/core': 7.26.0
       '@docusaurus/babel': 3.6.3(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)
@@ -19415,7 +19403,7 @@ snapshots:
       postcss: 8.4.49
       postcss-loader: 7.3.4(postcss@8.4.49)(typescript@5.6.3)(webpack@5.97.1(@swc/core@1.10.1(@swc/helpers@0.5.15)))
       postcss-preset-env: 10.1.1(postcss@8.4.49)
-      react-dev-utils: 12.0.1(eslint@9.16.0(jiti@2.4.0))(typescript@5.6.3)(webpack@5.97.1(@swc/core@1.10.1(@swc/helpers@0.5.15)))
+      react-dev-utils: 12.0.1(eslint@8.57.1)(typescript@5.6.3)(webpack@5.97.1(@swc/core@1.10.1(@swc/helpers@0.5.15)))
       terser-webpack-plugin: 5.3.10(@swc/core@1.10.1(@swc/helpers@0.5.15))(webpack@5.97.1(@swc/core@1.10.1(@swc/helpers@0.5.15)))
       tslib: 2.8.1
       url-loader: 4.1.1(file-loader@6.2.0(webpack@5.97.1(@swc/core@1.10.1(@swc/helpers@0.5.15))))(webpack@5.97.1(@swc/core@1.10.1(@swc/helpers@0.5.15)))
@@ -19439,10 +19427,10 @@ snapshots:
       - vue-template-compiler
       - webpack-cli
 
-  '@docusaurus/core@3.6.3(@mdx-js/react@3.0.1(@types/react@18.3.12)(react@18.3.1))(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(bufferutil@4.0.8)(eslint@9.16.0(jiti@2.4.0))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)(utf-8-validate@5.0.10)':
+  '@docusaurus/core@3.6.3(@mdx-js/react@3.0.1(@types/react@18.3.12)(react@18.3.1))(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(bufferutil@4.0.8)(eslint@8.57.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)(utf-8-validate@5.0.10)':
     dependencies:
       '@docusaurus/babel': 3.6.3(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)
-      '@docusaurus/bundler': 3.6.3(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(eslint@9.16.0(jiti@2.4.0))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)
+      '@docusaurus/bundler': 3.6.3(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(eslint@8.57.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)
       '@docusaurus/logger': 3.6.3
       '@docusaurus/mdx-loader': 3.6.3(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)
       '@docusaurus/utils': 3.6.3(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)
@@ -19469,7 +19457,7 @@ snapshots:
       p-map: 4.0.0
       prompts: 2.4.2
       react: 18.3.1
-      react-dev-utils: 12.0.1(eslint@9.16.0(jiti@2.4.0))(typescript@5.6.3)(webpack@5.97.1(@swc/core@1.10.1(@swc/helpers@0.5.15)))
+      react-dev-utils: 12.0.1(eslint@8.57.1)(typescript@5.6.3)(webpack@5.97.1(@swc/core@1.10.1(@swc/helpers@0.5.15)))
       react-dom: 18.3.1(react@18.3.1)
       react-helmet-async: 1.3.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       react-loadable: '@docusaurus/react-loadable@6.0.0(react@18.3.1)'
@@ -19585,13 +19573,13 @@ snapshots:
       - uglify-js
       - webpack-cli
 
-  '@docusaurus/plugin-content-blog@3.6.3(@docusaurus/plugin-content-docs@3.6.3(@mdx-js/react@3.0.1(@types/react@18.3.12)(react@18.3.1))(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(bufferutil@4.0.8)(eslint@9.16.0(jiti@2.4.0))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)(utf-8-validate@5.0.10))(@mdx-js/react@3.0.1(@types/react@18.3.12)(react@18.3.1))(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(bufferutil@4.0.8)(eslint@9.16.0(jiti@2.4.0))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)(utf-8-validate@5.0.10)':
+  '@docusaurus/plugin-content-blog@3.6.3(@docusaurus/plugin-content-docs@3.6.3(@mdx-js/react@3.0.1(@types/react@18.3.12)(react@18.3.1))(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(bufferutil@4.0.8)(eslint@8.57.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)(utf-8-validate@5.0.10))(@mdx-js/react@3.0.1(@types/react@18.3.12)(react@18.3.1))(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(bufferutil@4.0.8)(eslint@8.57.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)(utf-8-validate@5.0.10)':
     dependencies:
-      '@docusaurus/core': 3.6.3(@mdx-js/react@3.0.1(@types/react@18.3.12)(react@18.3.1))(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(bufferutil@4.0.8)(eslint@9.16.0(jiti@2.4.0))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)(utf-8-validate@5.0.10)
+      '@docusaurus/core': 3.6.3(@mdx-js/react@3.0.1(@types/react@18.3.12)(react@18.3.1))(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(bufferutil@4.0.8)(eslint@8.57.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)(utf-8-validate@5.0.10)
       '@docusaurus/logger': 3.6.3
       '@docusaurus/mdx-loader': 3.6.3(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)
-      '@docusaurus/plugin-content-docs': 3.6.3(@mdx-js/react@3.0.1(@types/react@18.3.12)(react@18.3.1))(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(bufferutil@4.0.8)(eslint@9.16.0(jiti@2.4.0))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)(utf-8-validate@5.0.10)
-      '@docusaurus/theme-common': 3.6.3(@docusaurus/plugin-content-docs@3.6.3(@mdx-js/react@3.0.1(@types/react@18.3.12)(react@18.3.1))(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(bufferutil@4.0.8)(eslint@9.16.0(jiti@2.4.0))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)(utf-8-validate@5.0.10))(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)
+      '@docusaurus/plugin-content-docs': 3.6.3(@mdx-js/react@3.0.1(@types/react@18.3.12)(react@18.3.1))(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(bufferutil@4.0.8)(eslint@8.57.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)(utf-8-validate@5.0.10)
+      '@docusaurus/theme-common': 3.6.3(@docusaurus/plugin-content-docs@3.6.3(@mdx-js/react@3.0.1(@types/react@18.3.12)(react@18.3.1))(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(bufferutil@4.0.8)(eslint@8.57.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)(utf-8-validate@5.0.10))(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)
       '@docusaurus/types': 3.6.3(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@docusaurus/utils': 3.6.3(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)
       '@docusaurus/utils-common': 3.6.3(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -19629,13 +19617,13 @@ snapshots:
       - vue-template-compiler
       - webpack-cli
 
-  '@docusaurus/plugin-content-docs@3.6.3(@mdx-js/react@3.0.1(@types/react@18.3.12)(react@18.3.1))(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(bufferutil@4.0.8)(eslint@9.16.0(jiti@2.4.0))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)(utf-8-validate@5.0.10)':
+  '@docusaurus/plugin-content-docs@3.6.3(@mdx-js/react@3.0.1(@types/react@18.3.12)(react@18.3.1))(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(bufferutil@4.0.8)(eslint@8.57.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)(utf-8-validate@5.0.10)':
     dependencies:
-      '@docusaurus/core': 3.6.3(@mdx-js/react@3.0.1(@types/react@18.3.12)(react@18.3.1))(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(bufferutil@4.0.8)(eslint@9.16.0(jiti@2.4.0))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)(utf-8-validate@5.0.10)
+      '@docusaurus/core': 3.6.3(@mdx-js/react@3.0.1(@types/react@18.3.12)(react@18.3.1))(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(bufferutil@4.0.8)(eslint@8.57.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)(utf-8-validate@5.0.10)
       '@docusaurus/logger': 3.6.3
       '@docusaurus/mdx-loader': 3.6.3(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)
       '@docusaurus/module-type-aliases': 3.6.3(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@docusaurus/theme-common': 3.6.3(@docusaurus/plugin-content-docs@3.6.3(@mdx-js/react@3.0.1(@types/react@18.3.12)(react@18.3.1))(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(bufferutil@4.0.8)(eslint@9.16.0(jiti@2.4.0))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)(utf-8-validate@5.0.10))(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)
+      '@docusaurus/theme-common': 3.6.3(@docusaurus/plugin-content-docs@3.6.3(@mdx-js/react@3.0.1(@types/react@18.3.12)(react@18.3.1))(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(bufferutil@4.0.8)(eslint@8.57.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)(utf-8-validate@5.0.10))(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)
       '@docusaurus/types': 3.6.3(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@docusaurus/utils': 3.6.3(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)
       '@docusaurus/utils-common': 3.6.3(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -19671,9 +19659,9 @@ snapshots:
       - vue-template-compiler
       - webpack-cli
 
-  '@docusaurus/plugin-content-pages@3.6.3(@mdx-js/react@3.0.1(@types/react@18.3.12)(react@18.3.1))(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(bufferutil@4.0.8)(eslint@9.16.0(jiti@2.4.0))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)(utf-8-validate@5.0.10)':
+  '@docusaurus/plugin-content-pages@3.6.3(@mdx-js/react@3.0.1(@types/react@18.3.12)(react@18.3.1))(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(bufferutil@4.0.8)(eslint@8.57.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)(utf-8-validate@5.0.10)':
     dependencies:
-      '@docusaurus/core': 3.6.3(@mdx-js/react@3.0.1(@types/react@18.3.12)(react@18.3.1))(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(bufferutil@4.0.8)(eslint@9.16.0(jiti@2.4.0))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)(utf-8-validate@5.0.10)
+      '@docusaurus/core': 3.6.3(@mdx-js/react@3.0.1(@types/react@18.3.12)(react@18.3.1))(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(bufferutil@4.0.8)(eslint@8.57.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)(utf-8-validate@5.0.10)
       '@docusaurus/mdx-loader': 3.6.3(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)
       '@docusaurus/types': 3.6.3(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@docusaurus/utils': 3.6.3(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)
@@ -19704,9 +19692,9 @@ snapshots:
       - vue-template-compiler
       - webpack-cli
 
-  '@docusaurus/plugin-debug@3.6.3(@mdx-js/react@3.0.1(@types/react@18.3.12)(react@18.3.1))(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(bufferutil@4.0.8)(eslint@9.16.0(jiti@2.4.0))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)(utf-8-validate@5.0.10)':
+  '@docusaurus/plugin-debug@3.6.3(@mdx-js/react@3.0.1(@types/react@18.3.12)(react@18.3.1))(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(bufferutil@4.0.8)(eslint@8.57.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)(utf-8-validate@5.0.10)':
     dependencies:
-      '@docusaurus/core': 3.6.3(@mdx-js/react@3.0.1(@types/react@18.3.12)(react@18.3.1))(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(bufferutil@4.0.8)(eslint@9.16.0(jiti@2.4.0))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)(utf-8-validate@5.0.10)
+      '@docusaurus/core': 3.6.3(@mdx-js/react@3.0.1(@types/react@18.3.12)(react@18.3.1))(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(bufferutil@4.0.8)(eslint@8.57.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)(utf-8-validate@5.0.10)
       '@docusaurus/types': 3.6.3(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@docusaurus/utils': 3.6.3(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)
       fs-extra: 11.2.0
@@ -19735,9 +19723,9 @@ snapshots:
       - vue-template-compiler
       - webpack-cli
 
-  '@docusaurus/plugin-google-analytics@3.6.3(@mdx-js/react@3.0.1(@types/react@18.3.12)(react@18.3.1))(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(bufferutil@4.0.8)(eslint@9.16.0(jiti@2.4.0))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)(utf-8-validate@5.0.10)':
+  '@docusaurus/plugin-google-analytics@3.6.3(@mdx-js/react@3.0.1(@types/react@18.3.12)(react@18.3.1))(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(bufferutil@4.0.8)(eslint@8.57.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)(utf-8-validate@5.0.10)':
     dependencies:
-      '@docusaurus/core': 3.6.3(@mdx-js/react@3.0.1(@types/react@18.3.12)(react@18.3.1))(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(bufferutil@4.0.8)(eslint@9.16.0(jiti@2.4.0))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)(utf-8-validate@5.0.10)
+      '@docusaurus/core': 3.6.3(@mdx-js/react@3.0.1(@types/react@18.3.12)(react@18.3.1))(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(bufferutil@4.0.8)(eslint@8.57.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)(utf-8-validate@5.0.10)
       '@docusaurus/types': 3.6.3(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@docusaurus/utils-validation': 3.6.3(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)
       react: 18.3.1
@@ -19764,9 +19752,9 @@ snapshots:
       - vue-template-compiler
       - webpack-cli
 
-  '@docusaurus/plugin-google-gtag@3.6.3(@mdx-js/react@3.0.1(@types/react@18.3.12)(react@18.3.1))(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(bufferutil@4.0.8)(eslint@9.16.0(jiti@2.4.0))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)(utf-8-validate@5.0.10)':
+  '@docusaurus/plugin-google-gtag@3.6.3(@mdx-js/react@3.0.1(@types/react@18.3.12)(react@18.3.1))(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(bufferutil@4.0.8)(eslint@8.57.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)(utf-8-validate@5.0.10)':
     dependencies:
-      '@docusaurus/core': 3.6.3(@mdx-js/react@3.0.1(@types/react@18.3.12)(react@18.3.1))(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(bufferutil@4.0.8)(eslint@9.16.0(jiti@2.4.0))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)(utf-8-validate@5.0.10)
+      '@docusaurus/core': 3.6.3(@mdx-js/react@3.0.1(@types/react@18.3.12)(react@18.3.1))(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(bufferutil@4.0.8)(eslint@8.57.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)(utf-8-validate@5.0.10)
       '@docusaurus/types': 3.6.3(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@docusaurus/utils-validation': 3.6.3(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)
       '@types/gtag.js': 0.0.12
@@ -19794,9 +19782,9 @@ snapshots:
       - vue-template-compiler
       - webpack-cli
 
-  '@docusaurus/plugin-google-tag-manager@3.6.3(@mdx-js/react@3.0.1(@types/react@18.3.12)(react@18.3.1))(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(bufferutil@4.0.8)(eslint@9.16.0(jiti@2.4.0))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)(utf-8-validate@5.0.10)':
+  '@docusaurus/plugin-google-tag-manager@3.6.3(@mdx-js/react@3.0.1(@types/react@18.3.12)(react@18.3.1))(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(bufferutil@4.0.8)(eslint@8.57.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)(utf-8-validate@5.0.10)':
     dependencies:
-      '@docusaurus/core': 3.6.3(@mdx-js/react@3.0.1(@types/react@18.3.12)(react@18.3.1))(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(bufferutil@4.0.8)(eslint@9.16.0(jiti@2.4.0))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)(utf-8-validate@5.0.10)
+      '@docusaurus/core': 3.6.3(@mdx-js/react@3.0.1(@types/react@18.3.12)(react@18.3.1))(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(bufferutil@4.0.8)(eslint@8.57.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)(utf-8-validate@5.0.10)
       '@docusaurus/types': 3.6.3(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@docusaurus/utils-validation': 3.6.3(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)
       react: 18.3.1
@@ -19823,9 +19811,9 @@ snapshots:
       - vue-template-compiler
       - webpack-cli
 
-  '@docusaurus/plugin-ideal-image@3.6.3(@mdx-js/react@3.0.1(@types/react@18.3.12)(react@18.3.1))(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(bufferutil@4.0.8)(eslint@9.16.0(jiti@2.4.0))(prop-types@15.8.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)(utf-8-validate@5.0.10)':
+  '@docusaurus/plugin-ideal-image@3.6.3(@mdx-js/react@3.0.1(@types/react@18.3.12)(react@18.3.1))(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(bufferutil@4.0.8)(eslint@8.57.1)(prop-types@15.8.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)(utf-8-validate@5.0.10)':
     dependencies:
-      '@docusaurus/core': 3.6.3(@mdx-js/react@3.0.1(@types/react@18.3.12)(react@18.3.1))(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(bufferutil@4.0.8)(eslint@9.16.0(jiti@2.4.0))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)(utf-8-validate@5.0.10)
+      '@docusaurus/core': 3.6.3(@mdx-js/react@3.0.1(@types/react@18.3.12)(react@18.3.1))(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(bufferutil@4.0.8)(eslint@8.57.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)(utf-8-validate@5.0.10)
       '@docusaurus/lqip-loader': 3.6.3(webpack@5.97.1(@swc/core@1.10.1(@swc/helpers@0.5.15)))
       '@docusaurus/responsive-loader': 1.7.0(sharp@0.32.6)
       '@docusaurus/theme-translations': 3.6.3
@@ -19860,9 +19848,9 @@ snapshots:
       - vue-template-compiler
       - webpack-cli
 
-  '@docusaurus/plugin-sitemap@3.6.3(@mdx-js/react@3.0.1(@types/react@18.3.12)(react@18.3.1))(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(bufferutil@4.0.8)(eslint@9.16.0(jiti@2.4.0))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)(utf-8-validate@5.0.10)':
+  '@docusaurus/plugin-sitemap@3.6.3(@mdx-js/react@3.0.1(@types/react@18.3.12)(react@18.3.1))(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(bufferutil@4.0.8)(eslint@8.57.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)(utf-8-validate@5.0.10)':
     dependencies:
-      '@docusaurus/core': 3.6.3(@mdx-js/react@3.0.1(@types/react@18.3.12)(react@18.3.1))(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(bufferutil@4.0.8)(eslint@9.16.0(jiti@2.4.0))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)(utf-8-validate@5.0.10)
+      '@docusaurus/core': 3.6.3(@mdx-js/react@3.0.1(@types/react@18.3.12)(react@18.3.1))(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(bufferutil@4.0.8)(eslint@8.57.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)(utf-8-validate@5.0.10)
       '@docusaurus/logger': 3.6.3
       '@docusaurus/types': 3.6.3(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@docusaurus/utils': 3.6.3(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)
@@ -19894,20 +19882,20 @@ snapshots:
       - vue-template-compiler
       - webpack-cli
 
-  '@docusaurus/preset-classic@3.6.3(@algolia/client-search@5.16.0)(@mdx-js/react@3.0.1(@types/react@18.3.12)(react@18.3.1))(@swc/core@1.10.1(@swc/helpers@0.5.15))(@types/react@18.3.12)(acorn@8.14.0)(bufferutil@4.0.8)(eslint@9.16.0(jiti@2.4.0))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(search-insights@2.17.3)(typescript@5.6.3)(utf-8-validate@5.0.10)':
+  '@docusaurus/preset-classic@3.6.3(@algolia/client-search@5.16.0)(@mdx-js/react@3.0.1(@types/react@18.3.12)(react@18.3.1))(@swc/core@1.10.1(@swc/helpers@0.5.15))(@types/react@18.3.12)(acorn@8.14.0)(bufferutil@4.0.8)(eslint@8.57.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(search-insights@2.17.3)(typescript@5.6.3)(utf-8-validate@5.0.10)':
     dependencies:
-      '@docusaurus/core': 3.6.3(@mdx-js/react@3.0.1(@types/react@18.3.12)(react@18.3.1))(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(bufferutil@4.0.8)(eslint@9.16.0(jiti@2.4.0))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)(utf-8-validate@5.0.10)
-      '@docusaurus/plugin-content-blog': 3.6.3(@docusaurus/plugin-content-docs@3.6.3(@mdx-js/react@3.0.1(@types/react@18.3.12)(react@18.3.1))(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(bufferutil@4.0.8)(eslint@9.16.0(jiti@2.4.0))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)(utf-8-validate@5.0.10))(@mdx-js/react@3.0.1(@types/react@18.3.12)(react@18.3.1))(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(bufferutil@4.0.8)(eslint@9.16.0(jiti@2.4.0))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)(utf-8-validate@5.0.10)
-      '@docusaurus/plugin-content-docs': 3.6.3(@mdx-js/react@3.0.1(@types/react@18.3.12)(react@18.3.1))(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(bufferutil@4.0.8)(eslint@9.16.0(jiti@2.4.0))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)(utf-8-validate@5.0.10)
-      '@docusaurus/plugin-content-pages': 3.6.3(@mdx-js/react@3.0.1(@types/react@18.3.12)(react@18.3.1))(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(bufferutil@4.0.8)(eslint@9.16.0(jiti@2.4.0))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)(utf-8-validate@5.0.10)
-      '@docusaurus/plugin-debug': 3.6.3(@mdx-js/react@3.0.1(@types/react@18.3.12)(react@18.3.1))(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(bufferutil@4.0.8)(eslint@9.16.0(jiti@2.4.0))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)(utf-8-validate@5.0.10)
-      '@docusaurus/plugin-google-analytics': 3.6.3(@mdx-js/react@3.0.1(@types/react@18.3.12)(react@18.3.1))(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(bufferutil@4.0.8)(eslint@9.16.0(jiti@2.4.0))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)(utf-8-validate@5.0.10)
-      '@docusaurus/plugin-google-gtag': 3.6.3(@mdx-js/react@3.0.1(@types/react@18.3.12)(react@18.3.1))(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(bufferutil@4.0.8)(eslint@9.16.0(jiti@2.4.0))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)(utf-8-validate@5.0.10)
-      '@docusaurus/plugin-google-tag-manager': 3.6.3(@mdx-js/react@3.0.1(@types/react@18.3.12)(react@18.3.1))(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(bufferutil@4.0.8)(eslint@9.16.0(jiti@2.4.0))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)(utf-8-validate@5.0.10)
-      '@docusaurus/plugin-sitemap': 3.6.3(@mdx-js/react@3.0.1(@types/react@18.3.12)(react@18.3.1))(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(bufferutil@4.0.8)(eslint@9.16.0(jiti@2.4.0))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)(utf-8-validate@5.0.10)
-      '@docusaurus/theme-classic': 3.6.3(@swc/core@1.10.1(@swc/helpers@0.5.15))(@types/react@18.3.12)(acorn@8.14.0)(bufferutil@4.0.8)(eslint@9.16.0(jiti@2.4.0))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)(utf-8-validate@5.0.10)
-      '@docusaurus/theme-common': 3.6.3(@docusaurus/plugin-content-docs@3.6.3(@mdx-js/react@3.0.1(@types/react@18.3.12)(react@18.3.1))(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(bufferutil@4.0.8)(eslint@9.16.0(jiti@2.4.0))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)(utf-8-validate@5.0.10))(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)
-      '@docusaurus/theme-search-algolia': 3.6.3(@algolia/client-search@5.16.0)(@mdx-js/react@3.0.1(@types/react@18.3.12)(react@18.3.1))(@swc/core@1.10.1(@swc/helpers@0.5.15))(@types/react@18.3.12)(acorn@8.14.0)(bufferutil@4.0.8)(eslint@9.16.0(jiti@2.4.0))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(search-insights@2.17.3)(typescript@5.6.3)(utf-8-validate@5.0.10)
+      '@docusaurus/core': 3.6.3(@mdx-js/react@3.0.1(@types/react@18.3.12)(react@18.3.1))(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(bufferutil@4.0.8)(eslint@8.57.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)(utf-8-validate@5.0.10)
+      '@docusaurus/plugin-content-blog': 3.6.3(@docusaurus/plugin-content-docs@3.6.3(@mdx-js/react@3.0.1(@types/react@18.3.12)(react@18.3.1))(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(bufferutil@4.0.8)(eslint@8.57.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)(utf-8-validate@5.0.10))(@mdx-js/react@3.0.1(@types/react@18.3.12)(react@18.3.1))(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(bufferutil@4.0.8)(eslint@8.57.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)(utf-8-validate@5.0.10)
+      '@docusaurus/plugin-content-docs': 3.6.3(@mdx-js/react@3.0.1(@types/react@18.3.12)(react@18.3.1))(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(bufferutil@4.0.8)(eslint@8.57.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)(utf-8-validate@5.0.10)
+      '@docusaurus/plugin-content-pages': 3.6.3(@mdx-js/react@3.0.1(@types/react@18.3.12)(react@18.3.1))(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(bufferutil@4.0.8)(eslint@8.57.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)(utf-8-validate@5.0.10)
+      '@docusaurus/plugin-debug': 3.6.3(@mdx-js/react@3.0.1(@types/react@18.3.12)(react@18.3.1))(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(bufferutil@4.0.8)(eslint@8.57.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)(utf-8-validate@5.0.10)
+      '@docusaurus/plugin-google-analytics': 3.6.3(@mdx-js/react@3.0.1(@types/react@18.3.12)(react@18.3.1))(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(bufferutil@4.0.8)(eslint@8.57.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)(utf-8-validate@5.0.10)
+      '@docusaurus/plugin-google-gtag': 3.6.3(@mdx-js/react@3.0.1(@types/react@18.3.12)(react@18.3.1))(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(bufferutil@4.0.8)(eslint@8.57.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)(utf-8-validate@5.0.10)
+      '@docusaurus/plugin-google-tag-manager': 3.6.3(@mdx-js/react@3.0.1(@types/react@18.3.12)(react@18.3.1))(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(bufferutil@4.0.8)(eslint@8.57.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)(utf-8-validate@5.0.10)
+      '@docusaurus/plugin-sitemap': 3.6.3(@mdx-js/react@3.0.1(@types/react@18.3.12)(react@18.3.1))(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(bufferutil@4.0.8)(eslint@8.57.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)(utf-8-validate@5.0.10)
+      '@docusaurus/theme-classic': 3.6.3(@swc/core@1.10.1(@swc/helpers@0.5.15))(@types/react@18.3.12)(acorn@8.14.0)(bufferutil@4.0.8)(eslint@8.57.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)(utf-8-validate@5.0.10)
+      '@docusaurus/theme-common': 3.6.3(@docusaurus/plugin-content-docs@3.6.3(@mdx-js/react@3.0.1(@types/react@18.3.12)(react@18.3.1))(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(bufferutil@4.0.8)(eslint@8.57.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)(utf-8-validate@5.0.10))(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)
+      '@docusaurus/theme-search-algolia': 3.6.3(@algolia/client-search@5.16.0)(@mdx-js/react@3.0.1(@types/react@18.3.12)(react@18.3.1))(@swc/core@1.10.1(@swc/helpers@0.5.15))(@types/react@18.3.12)(acorn@8.14.0)(bufferutil@4.0.8)(eslint@8.57.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(search-insights@2.17.3)(typescript@5.6.3)(utf-8-validate@5.0.10)
       '@docusaurus/types': 3.6.3(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
@@ -19946,16 +19934,16 @@ snapshots:
     optionalDependencies:
       sharp: 0.32.6
 
-  '@docusaurus/theme-classic@3.6.3(@swc/core@1.10.1(@swc/helpers@0.5.15))(@types/react@18.3.12)(acorn@8.14.0)(bufferutil@4.0.8)(eslint@9.16.0(jiti@2.4.0))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)(utf-8-validate@5.0.10)':
+  '@docusaurus/theme-classic@3.6.3(@swc/core@1.10.1(@swc/helpers@0.5.15))(@types/react@18.3.12)(acorn@8.14.0)(bufferutil@4.0.8)(eslint@8.57.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)(utf-8-validate@5.0.10)':
     dependencies:
-      '@docusaurus/core': 3.6.3(@mdx-js/react@3.0.1(@types/react@18.3.12)(react@18.3.1))(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(bufferutil@4.0.8)(eslint@9.16.0(jiti@2.4.0))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)(utf-8-validate@5.0.10)
+      '@docusaurus/core': 3.6.3(@mdx-js/react@3.0.1(@types/react@18.3.12)(react@18.3.1))(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(bufferutil@4.0.8)(eslint@8.57.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)(utf-8-validate@5.0.10)
       '@docusaurus/logger': 3.6.3
       '@docusaurus/mdx-loader': 3.6.3(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)
       '@docusaurus/module-type-aliases': 3.6.3(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@docusaurus/plugin-content-blog': 3.6.3(@docusaurus/plugin-content-docs@3.6.3(@mdx-js/react@3.0.1(@types/react@18.3.12)(react@18.3.1))(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(bufferutil@4.0.8)(eslint@9.16.0(jiti@2.4.0))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)(utf-8-validate@5.0.10))(@mdx-js/react@3.0.1(@types/react@18.3.12)(react@18.3.1))(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(bufferutil@4.0.8)(eslint@9.16.0(jiti@2.4.0))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)(utf-8-validate@5.0.10)
-      '@docusaurus/plugin-content-docs': 3.6.3(@mdx-js/react@3.0.1(@types/react@18.3.12)(react@18.3.1))(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(bufferutil@4.0.8)(eslint@9.16.0(jiti@2.4.0))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)(utf-8-validate@5.0.10)
-      '@docusaurus/plugin-content-pages': 3.6.3(@mdx-js/react@3.0.1(@types/react@18.3.12)(react@18.3.1))(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(bufferutil@4.0.8)(eslint@9.16.0(jiti@2.4.0))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)(utf-8-validate@5.0.10)
-      '@docusaurus/theme-common': 3.6.3(@docusaurus/plugin-content-docs@3.6.3(@mdx-js/react@3.0.1(@types/react@18.3.12)(react@18.3.1))(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(bufferutil@4.0.8)(eslint@9.16.0(jiti@2.4.0))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)(utf-8-validate@5.0.10))(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)
+      '@docusaurus/plugin-content-blog': 3.6.3(@docusaurus/plugin-content-docs@3.6.3(@mdx-js/react@3.0.1(@types/react@18.3.12)(react@18.3.1))(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(bufferutil@4.0.8)(eslint@8.57.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)(utf-8-validate@5.0.10))(@mdx-js/react@3.0.1(@types/react@18.3.12)(react@18.3.1))(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(bufferutil@4.0.8)(eslint@8.57.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)(utf-8-validate@5.0.10)
+      '@docusaurus/plugin-content-docs': 3.6.3(@mdx-js/react@3.0.1(@types/react@18.3.12)(react@18.3.1))(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(bufferutil@4.0.8)(eslint@8.57.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)(utf-8-validate@5.0.10)
+      '@docusaurus/plugin-content-pages': 3.6.3(@mdx-js/react@3.0.1(@types/react@18.3.12)(react@18.3.1))(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(bufferutil@4.0.8)(eslint@8.57.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)(utf-8-validate@5.0.10)
+      '@docusaurus/theme-common': 3.6.3(@docusaurus/plugin-content-docs@3.6.3(@mdx-js/react@3.0.1(@types/react@18.3.12)(react@18.3.1))(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(bufferutil@4.0.8)(eslint@8.57.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)(utf-8-validate@5.0.10))(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)
       '@docusaurus/theme-translations': 3.6.3
       '@docusaurus/types': 3.6.3(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@docusaurus/utils': 3.6.3(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)
@@ -19997,11 +19985,11 @@ snapshots:
       - vue-template-compiler
       - webpack-cli
 
-  '@docusaurus/theme-common@3.6.3(@docusaurus/plugin-content-docs@3.6.3(@mdx-js/react@3.0.1(@types/react@18.3.12)(react@18.3.1))(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(bufferutil@4.0.8)(eslint@9.16.0(jiti@2.4.0))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)(utf-8-validate@5.0.10))(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)':
+  '@docusaurus/theme-common@3.6.3(@docusaurus/plugin-content-docs@3.6.3(@mdx-js/react@3.0.1(@types/react@18.3.12)(react@18.3.1))(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(bufferutil@4.0.8)(eslint@8.57.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)(utf-8-validate@5.0.10))(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)':
     dependencies:
       '@docusaurus/mdx-loader': 3.6.3(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)
       '@docusaurus/module-type-aliases': 3.6.3(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@docusaurus/plugin-content-docs': 3.6.3(@mdx-js/react@3.0.1(@types/react@18.3.12)(react@18.3.1))(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(bufferutil@4.0.8)(eslint@9.16.0(jiti@2.4.0))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)(utf-8-validate@5.0.10)
+      '@docusaurus/plugin-content-docs': 3.6.3(@mdx-js/react@3.0.1(@types/react@18.3.12)(react@18.3.1))(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(bufferutil@4.0.8)(eslint@8.57.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)(utf-8-validate@5.0.10)
       '@docusaurus/utils': 3.6.3(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)
       '@docusaurus/utils-common': 3.6.3(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@types/history': 4.7.11
@@ -20023,11 +20011,11 @@ snapshots:
       - uglify-js
       - webpack-cli
 
-  '@docusaurus/theme-mermaid@3.6.3(@docusaurus/plugin-content-docs@3.6.3(@mdx-js/react@3.0.1(@types/react@18.3.12)(react@18.3.1))(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(bufferutil@4.0.8)(eslint@9.16.0(jiti@2.4.0))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)(utf-8-validate@5.0.10))(@mdx-js/react@3.0.1(@types/react@18.3.12)(react@18.3.1))(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(bufferutil@4.0.8)(eslint@9.16.0(jiti@2.4.0))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)(utf-8-validate@5.0.10)':
+  '@docusaurus/theme-mermaid@3.6.3(@docusaurus/plugin-content-docs@3.6.3(@mdx-js/react@3.0.1(@types/react@18.3.12)(react@18.3.1))(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(bufferutil@4.0.8)(eslint@8.57.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)(utf-8-validate@5.0.10))(@mdx-js/react@3.0.1(@types/react@18.3.12)(react@18.3.1))(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(bufferutil@4.0.8)(eslint@8.57.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)(utf-8-validate@5.0.10)':
     dependencies:
-      '@docusaurus/core': 3.6.3(@mdx-js/react@3.0.1(@types/react@18.3.12)(react@18.3.1))(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(bufferutil@4.0.8)(eslint@9.16.0(jiti@2.4.0))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)(utf-8-validate@5.0.10)
+      '@docusaurus/core': 3.6.3(@mdx-js/react@3.0.1(@types/react@18.3.12)(react@18.3.1))(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(bufferutil@4.0.8)(eslint@8.57.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)(utf-8-validate@5.0.10)
       '@docusaurus/module-type-aliases': 3.6.3(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@docusaurus/theme-common': 3.6.3(@docusaurus/plugin-content-docs@3.6.3(@mdx-js/react@3.0.1(@types/react@18.3.12)(react@18.3.1))(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(bufferutil@4.0.8)(eslint@9.16.0(jiti@2.4.0))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)(utf-8-validate@5.0.10))(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)
+      '@docusaurus/theme-common': 3.6.3(@docusaurus/plugin-content-docs@3.6.3(@mdx-js/react@3.0.1(@types/react@18.3.12)(react@18.3.1))(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(bufferutil@4.0.8)(eslint@8.57.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)(utf-8-validate@5.0.10))(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)
       '@docusaurus/types': 3.6.3(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@docusaurus/utils-validation': 3.6.3(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)
       mermaid: 11.4.1
@@ -20056,13 +20044,13 @@ snapshots:
       - vue-template-compiler
       - webpack-cli
 
-  '@docusaurus/theme-search-algolia@3.6.3(@algolia/client-search@5.16.0)(@mdx-js/react@3.0.1(@types/react@18.3.12)(react@18.3.1))(@swc/core@1.10.1(@swc/helpers@0.5.15))(@types/react@18.3.12)(acorn@8.14.0)(bufferutil@4.0.8)(eslint@9.16.0(jiti@2.4.0))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(search-insights@2.17.3)(typescript@5.6.3)(utf-8-validate@5.0.10)':
+  '@docusaurus/theme-search-algolia@3.6.3(@algolia/client-search@5.16.0)(@mdx-js/react@3.0.1(@types/react@18.3.12)(react@18.3.1))(@swc/core@1.10.1(@swc/helpers@0.5.15))(@types/react@18.3.12)(acorn@8.14.0)(bufferutil@4.0.8)(eslint@8.57.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(search-insights@2.17.3)(typescript@5.6.3)(utf-8-validate@5.0.10)':
     dependencies:
       '@docsearch/react': 3.8.0(@algolia/client-search@5.16.0)(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(search-insights@2.17.3)
-      '@docusaurus/core': 3.6.3(@mdx-js/react@3.0.1(@types/react@18.3.12)(react@18.3.1))(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(bufferutil@4.0.8)(eslint@9.16.0(jiti@2.4.0))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)(utf-8-validate@5.0.10)
+      '@docusaurus/core': 3.6.3(@mdx-js/react@3.0.1(@types/react@18.3.12)(react@18.3.1))(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(bufferutil@4.0.8)(eslint@8.57.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)(utf-8-validate@5.0.10)
       '@docusaurus/logger': 3.6.3
-      '@docusaurus/plugin-content-docs': 3.6.3(@mdx-js/react@3.0.1(@types/react@18.3.12)(react@18.3.1))(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(bufferutil@4.0.8)(eslint@9.16.0(jiti@2.4.0))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)(utf-8-validate@5.0.10)
-      '@docusaurus/theme-common': 3.6.3(@docusaurus/plugin-content-docs@3.6.3(@mdx-js/react@3.0.1(@types/react@18.3.12)(react@18.3.1))(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(bufferutil@4.0.8)(eslint@9.16.0(jiti@2.4.0))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)(utf-8-validate@5.0.10))(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)
+      '@docusaurus/plugin-content-docs': 3.6.3(@mdx-js/react@3.0.1(@types/react@18.3.12)(react@18.3.1))(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(bufferutil@4.0.8)(eslint@8.57.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)(utf-8-validate@5.0.10)
+      '@docusaurus/theme-common': 3.6.3(@docusaurus/plugin-content-docs@3.6.3(@mdx-js/react@3.0.1(@types/react@18.3.12)(react@18.3.1))(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(bufferutil@4.0.8)(eslint@8.57.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)(utf-8-validate@5.0.10))(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)
       '@docusaurus/theme-translations': 3.6.3
       '@docusaurus/utils': 3.6.3(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)
       '@docusaurus/utils-validation': 3.6.3(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)
@@ -20853,6 +20841,41 @@ snapshots:
       jest-message-util: 29.7.0
       jest-util: 29.7.0
       slash: 3.0.0
+
+  '@jest/core@29.7.0(ts-node@10.9.2(@swc/core@1.10.1(@swc/helpers@0.5.15))(@types/node@20.17.9)(typescript@5.6.3))':
+    dependencies:
+      '@jest/console': 29.7.0
+      '@jest/reporters': 29.7.0
+      '@jest/test-result': 29.7.0
+      '@jest/transform': 29.7.0
+      '@jest/types': 29.6.3
+      '@types/node': 20.17.9
+      ansi-escapes: 4.3.2
+      chalk: 4.1.2
+      ci-info: 3.9.0
+      exit: 0.1.2
+      graceful-fs: 4.2.11
+      jest-changed-files: 29.7.0
+      jest-config: 29.7.0(@types/node@20.17.9)(ts-node@10.9.2(@swc/core@1.10.1(@swc/helpers@0.5.15))(@types/node@20.17.9)(typescript@5.6.3))
+      jest-haste-map: 29.7.0
+      jest-message-util: 29.7.0
+      jest-regex-util: 29.6.3
+      jest-resolve: 29.7.0
+      jest-resolve-dependencies: 29.7.0
+      jest-runner: 29.7.0
+      jest-runtime: 29.7.0
+      jest-snapshot: 29.7.0
+      jest-util: 29.7.0
+      jest-validate: 29.7.0
+      jest-watcher: 29.7.0
+      micromatch: 4.0.8
+      pretty-format: 29.7.0
+      slash: 3.0.0
+      strip-ansi: 6.0.1
+    transitivePeerDependencies:
+      - babel-plugin-macros
+      - supports-color
+      - ts-node
 
   '@jest/core@29.7.0(ts-node@10.9.2(@swc/core@1.10.1(@swc/helpers@0.5.15))(@types/node@22.8.4)(typescript@5.6.3))':
     dependencies:
@@ -21945,7 +21968,7 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  '@onflow/fcl-wc@5.5.1(@onflow/fcl-core@1.13.1(bufferutil@4.0.8)(encoding@0.1.13)(google-protobuf@3.21.4)(utf-8-validate@5.0.10))(@types/react@18.3.12)(bufferutil@4.0.8)(jiti@2.4.0)(postcss@8.4.49)(react@18.3.1)(utf-8-validate@5.0.10)':
+  '@onflow/fcl-wc@5.5.1(@onflow/fcl-core@1.13.1(bufferutil@4.0.8)(encoding@0.1.13)(google-protobuf@3.21.4)(utf-8-validate@5.0.10))(@types/react@18.3.12)(bufferutil@4.0.8)(jiti@2.4.0)(postcss@8.4.49)(react@18.3.1)(ts-node@10.9.2(@swc/core@1.10.1(@swc/helpers@0.5.15))(@types/node@20.17.9)(typescript@5.6.3))(utf-8-validate@5.0.10)':
     dependencies:
       '@babel/runtime': 7.26.0
       '@onflow/config': 1.5.1
@@ -21959,7 +21982,7 @@ snapshots:
       '@walletconnect/utils': 2.17.2
       postcss-cli: 11.0.0(jiti@2.4.0)(postcss@8.4.49)
       preact: 10.25.1
-      tailwindcss: 3.4.15(ts-node@10.9.2(@swc/core@1.10.1(@swc/helpers@0.5.15))(@types/node@22.8.4)(typescript@5.6.3))
+      tailwindcss: 3.4.15(ts-node@10.9.2(@swc/core@1.10.1(@swc/helpers@0.5.15))(@types/node@20.17.9)(typescript@5.6.3))
     transitivePeerDependencies:
       - '@azure/app-configuration'
       - '@azure/cosmos'
@@ -21985,12 +22008,12 @@ snapshots:
       - tsx
       - utf-8-validate
 
-  '@onflow/fcl@1.13.1(@types/react@18.3.12)(bufferutil@4.0.8)(encoding@0.1.13)(google-protobuf@3.21.4)(jiti@2.4.0)(postcss@8.4.49)(react@18.3.1)(utf-8-validate@5.0.10)':
+  '@onflow/fcl@1.13.1(@types/react@18.3.12)(bufferutil@4.0.8)(encoding@0.1.13)(google-protobuf@3.21.4)(jiti@2.4.0)(postcss@8.4.49)(react@18.3.1)(ts-node@10.9.2(@swc/core@1.10.1(@swc/helpers@0.5.15))(@types/node@20.17.9)(typescript@5.6.3))(utf-8-validate@5.0.10)':
     dependencies:
       '@babel/runtime': 7.26.0
       '@onflow/config': 1.5.1
       '@onflow/fcl-core': 1.13.1(bufferutil@4.0.8)(encoding@0.1.13)(google-protobuf@3.21.4)(utf-8-validate@5.0.10)
-      '@onflow/fcl-wc': 5.5.1(@onflow/fcl-core@1.13.1(bufferutil@4.0.8)(encoding@0.1.13)(google-protobuf@3.21.4)(utf-8-validate@5.0.10))(@types/react@18.3.12)(bufferutil@4.0.8)(jiti@2.4.0)(postcss@8.4.49)(react@18.3.1)(utf-8-validate@5.0.10)
+      '@onflow/fcl-wc': 5.5.1(@onflow/fcl-core@1.13.1(bufferutil@4.0.8)(encoding@0.1.13)(google-protobuf@3.21.4)(utf-8-validate@5.0.10))(@types/react@18.3.12)(bufferutil@4.0.8)(jiti@2.4.0)(postcss@8.4.49)(react@18.3.1)(ts-node@10.9.2(@swc/core@1.10.1(@swc/helpers@0.5.15))(@types/node@20.17.9)(typescript@5.6.3))(utf-8-validate@5.0.10)
       '@onflow/interaction': 0.0.11
       '@onflow/rlp': 1.2.3
       '@onflow/sdk': 1.5.5(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10)
@@ -22684,12 +22707,6 @@ snapshots:
     optionalDependencies:
       rollup: 3.29.5
 
-  '@rollup/plugin-json@6.1.0(rollup@4.28.1)':
-    dependencies:
-      '@rollup/pluginutils': 5.1.3(rollup@4.28.1)
-    optionalDependencies:
-      rollup: 4.28.1
-
   '@rollup/plugin-node-resolve@15.3.0(rollup@2.79.2)':
     dependencies:
       '@rollup/pluginutils': 5.1.3(rollup@2.79.2)
@@ -22739,9 +22756,9 @@ snapshots:
       rollup: 2.79.2
       tslib: 2.8.1
 
-  '@rollup/plugin-virtual@3.0.2(rollup@4.28.1)':
+  '@rollup/plugin-virtual@3.0.2(rollup@2.79.2)':
     optionalDependencies:
-      rollup: 4.28.1
+      rollup: 2.79.2
 
   '@rollup/pluginutils@5.1.3(rollup@2.79.2)':
     dependencies:
@@ -22758,14 +22775,6 @@ snapshots:
       picomatch: 4.0.2
     optionalDependencies:
       rollup: 3.29.5
-
-  '@rollup/pluginutils@5.1.3(rollup@4.28.1)':
-    dependencies:
-      '@types/estree': 1.0.6
-      estree-walker: 2.0.2
-      picomatch: 4.0.2
-    optionalDependencies:
-      rollup: 4.28.1
 
   '@rollup/rollup-android-arm-eabi@4.28.1':
     optional: true
@@ -24670,13 +24679,21 @@ snapshots:
       chai: 5.1.2
       tinyrainbow: 1.2.0
 
-  '@vitest/mocker@2.1.4(vite@5.4.11(@types/node@22.8.4)(terser@5.37.0))':
+  '@vitest/mocker@2.1.4(vite@5.4.11(@types/node@20.17.9)(terser@5.37.0))':
     dependencies:
       '@vitest/spy': 2.1.4
       estree-walker: 3.0.3
       magic-string: 0.30.15
     optionalDependencies:
-      vite: 5.4.11(@types/node@22.8.4)(terser@5.37.0)
+      vite: 5.4.11(@types/node@20.17.9)(terser@5.37.0)
+
+  '@vitest/mocker@2.1.5(vite@5.4.11(@types/node@20.17.9)(terser@5.37.0))':
+    dependencies:
+      '@vitest/spy': 2.1.5
+      estree-walker: 3.0.3
+      magic-string: 0.30.15
+    optionalDependencies:
+      vite: 5.4.11(@types/node@20.17.9)(terser@5.37.0)
 
   '@vitest/mocker@2.1.5(vite@5.4.11(@types/node@22.8.4)(terser@5.37.0))':
     dependencies:
@@ -26688,13 +26705,13 @@ snapshots:
       ripemd160: 2.0.2
       sha.js: 2.4.11
 
-  create-jest@29.7.0(@types/node@20.17.9):
+  create-jest@29.7.0(@types/node@20.17.9)(ts-node@10.9.2(@swc/core@1.10.1(@swc/helpers@0.5.15))(@types/node@20.17.9)(typescript@5.6.3)):
     dependencies:
       '@jest/types': 29.6.3
       chalk: 4.1.2
       exit: 0.1.2
       graceful-fs: 4.2.11
-      jest-config: 29.7.0(@types/node@20.17.9)(ts-node@10.9.2(@swc/core@1.10.1(@swc/helpers@0.5.15))(@types/node@22.8.4)(typescript@5.6.3))
+      jest-config: 29.7.0(@types/node@20.17.9)(ts-node@10.9.2(@swc/core@1.10.1(@swc/helpers@0.5.15))(@types/node@20.17.9)(typescript@5.6.3))
       jest-util: 29.7.0
       prompts: 2.4.2
     transitivePeerDependencies:
@@ -27411,9 +27428,9 @@ snapshots:
     dependencies:
       esutils: 2.0.3
 
-  docusaurus-lunr-search@3.5.0(@docusaurus/core@3.6.3(@mdx-js/react@3.0.1(@types/react@18.3.12)(react@18.3.1))(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(bufferutil@4.0.8)(eslint@9.16.0(jiti@2.4.0))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)(utf-8-validate@5.0.10))(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
+  docusaurus-lunr-search@3.5.0(@docusaurus/core@3.6.3(@mdx-js/react@3.0.1(@types/react@18.3.12)(react@18.3.1))(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(bufferutil@4.0.8)(eslint@8.57.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)(utf-8-validate@5.0.10))(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
     dependencies:
-      '@docusaurus/core': 3.6.3(@mdx-js/react@3.0.1(@types/react@18.3.12)(react@18.3.1))(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(bufferutil@4.0.8)(eslint@9.16.0(jiti@2.4.0))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)(utf-8-validate@5.0.10)
+      '@docusaurus/core': 3.6.3(@mdx-js/react@3.0.1(@types/react@18.3.12)(react@18.3.1))(@swc/core@1.10.1(@swc/helpers@0.5.15))(acorn@8.14.0)(bufferutil@4.0.8)(eslint@8.57.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)(utf-8-validate@5.0.10)
       autocomplete.js: 0.37.1
       clsx: 1.2.1
       gauge: 3.0.2
@@ -28434,7 +28451,7 @@ snapshots:
 
   forever-agent@0.6.1: {}
 
-  fork-ts-checker-webpack-plugin@6.5.3(eslint@9.16.0(jiti@2.4.0))(typescript@5.6.3)(webpack@5.97.1(@swc/core@1.10.1(@swc/helpers@0.5.15))):
+  fork-ts-checker-webpack-plugin@6.5.3(eslint@8.57.1)(typescript@5.6.3)(webpack@5.97.1(@swc/core@1.10.1(@swc/helpers@0.5.15))):
     dependencies:
       '@babel/code-frame': 7.26.2
       '@types/json-schema': 7.0.15
@@ -28452,7 +28469,7 @@ snapshots:
       typescript: 5.6.3
       webpack: 5.97.1(@swc/core@1.10.1(@swc/helpers@0.5.15))
     optionalDependencies:
-      eslint: 9.16.0(jiti@2.4.0)
+      eslint: 8.57.1
 
   form-data-encoder@1.7.2: {}
 
@@ -29814,35 +29831,16 @@ snapshots:
       - babel-plugin-macros
       - supports-color
 
-  jest-cli@29.7.0(@types/node@20.17.9):
+  jest-cli@29.7.0(@types/node@20.17.9)(ts-node@10.9.2(@swc/core@1.10.1(@swc/helpers@0.5.15))(@types/node@20.17.9)(typescript@5.6.3)):
     dependencies:
-      '@jest/core': 29.7.0(ts-node@10.9.2(@swc/core@1.10.1(@swc/helpers@0.5.15))(@types/node@22.8.4)(typescript@5.6.3))
+      '@jest/core': 29.7.0(ts-node@10.9.2(@swc/core@1.10.1(@swc/helpers@0.5.15))(@types/node@20.17.9)(typescript@5.6.3))
       '@jest/test-result': 29.7.0
       '@jest/types': 29.6.3
       chalk: 4.1.2
-      create-jest: 29.7.0(@types/node@20.17.9)
+      create-jest: 29.7.0(@types/node@20.17.9)(ts-node@10.9.2(@swc/core@1.10.1(@swc/helpers@0.5.15))(@types/node@20.17.9)(typescript@5.6.3))
       exit: 0.1.2
       import-local: 3.2.0
-      jest-config: 29.7.0(@types/node@20.17.9)(ts-node@10.9.2(@swc/core@1.10.1(@swc/helpers@0.5.15))(@types/node@22.8.4)(typescript@5.6.3))
-      jest-util: 29.7.0
-      jest-validate: 29.7.0
-      yargs: 17.7.2
-    transitivePeerDependencies:
-      - '@types/node'
-      - babel-plugin-macros
-      - supports-color
-      - ts-node
-
-  jest-cli@29.7.0(@types/node@22.8.4):
-    dependencies:
-      '@jest/core': 29.7.0(ts-node@10.9.2(@swc/core@1.10.1(@swc/helpers@0.5.15))(@types/node@22.8.4)(typescript@5.6.3))
-      '@jest/test-result': 29.7.0
-      '@jest/types': 29.6.3
-      chalk: 4.1.2
-      create-jest: 29.7.0(@types/node@22.8.4)(ts-node@10.9.2(@swc/core@1.10.1(@swc/helpers@0.5.15))(@types/node@22.8.4)(typescript@5.6.3))
-      exit: 0.1.2
-      import-local: 3.2.0
-      jest-config: 29.7.0(@types/node@22.8.4)(ts-node@10.9.2(@swc/core@1.10.1(@swc/helpers@0.5.15))(@types/node@22.8.4)(typescript@5.6.3))
+      jest-config: 29.7.0(@types/node@20.17.9)(ts-node@10.9.2(@swc/core@1.10.1(@swc/helpers@0.5.15))(@types/node@20.17.9)(typescript@5.6.3))
       jest-util: 29.7.0
       jest-validate: 29.7.0
       yargs: 17.7.2
@@ -29870,6 +29868,37 @@ snapshots:
       - babel-plugin-macros
       - supports-color
       - ts-node
+
+  jest-config@29.7.0(@types/node@20.17.9)(ts-node@10.9.2(@swc/core@1.10.1(@swc/helpers@0.5.15))(@types/node@20.17.9)(typescript@5.6.3)):
+    dependencies:
+      '@babel/core': 7.26.0
+      '@jest/test-sequencer': 29.7.0
+      '@jest/types': 29.6.3
+      babel-jest: 29.7.0(@babel/core@7.26.0)
+      chalk: 4.1.2
+      ci-info: 3.9.0
+      deepmerge: 4.3.1
+      glob: 7.2.3
+      graceful-fs: 4.2.11
+      jest-circus: 29.7.0
+      jest-environment-node: 29.7.0
+      jest-get-type: 29.6.3
+      jest-regex-util: 29.6.3
+      jest-resolve: 29.7.0
+      jest-runner: 29.7.0
+      jest-util: 29.7.0
+      jest-validate: 29.7.0
+      micromatch: 4.0.8
+      parse-json: 5.2.0
+      pretty-format: 29.7.0
+      slash: 3.0.0
+      strip-json-comments: 3.1.1
+    optionalDependencies:
+      '@types/node': 20.17.9
+      ts-node: 10.9.2(@swc/core@1.10.1(@swc/helpers@0.5.15))(@types/node@20.17.9)(typescript@5.6.3)
+    transitivePeerDependencies:
+      - babel-plugin-macros
+      - supports-color
 
   jest-config@29.7.0(@types/node@20.17.9)(ts-node@10.9.2(@swc/core@1.10.1(@swc/helpers@0.5.15))(@types/node@22.8.4)(typescript@5.6.3)):
     dependencies:
@@ -30154,24 +30183,12 @@ snapshots:
       merge-stream: 2.0.0
       supports-color: 8.1.1
 
-  jest@29.7.0(@types/node@20.17.9):
+  jest@29.7.0(@types/node@20.17.9)(ts-node@10.9.2(@swc/core@1.10.1(@swc/helpers@0.5.15))(@types/node@20.17.9)(typescript@5.6.3)):
     dependencies:
-      '@jest/core': 29.7.0(ts-node@10.9.2(@swc/core@1.10.1(@swc/helpers@0.5.15))(@types/node@22.8.4)(typescript@5.6.3))
+      '@jest/core': 29.7.0(ts-node@10.9.2(@swc/core@1.10.1(@swc/helpers@0.5.15))(@types/node@20.17.9)(typescript@5.6.3))
       '@jest/types': 29.6.3
       import-local: 3.2.0
-      jest-cli: 29.7.0(@types/node@20.17.9)
-    transitivePeerDependencies:
-      - '@types/node'
-      - babel-plugin-macros
-      - supports-color
-      - ts-node
-
-  jest@29.7.0(@types/node@22.8.4):
-    dependencies:
-      '@jest/core': 29.7.0(ts-node@10.9.2(@swc/core@1.10.1(@swc/helpers@0.5.15))(@types/node@22.8.4)(typescript@5.6.3))
-      '@jest/types': 29.6.3
-      import-local: 3.2.0
-      jest-cli: 29.7.0(@types/node@22.8.4)
+      jest-cli: 29.7.0(@types/node@20.17.9)(ts-node@10.9.2(@swc/core@1.10.1(@swc/helpers@0.5.15))(@types/node@20.17.9)(typescript@5.6.3))
     transitivePeerDependencies:
       - '@types/node'
       - babel-plugin-macros
@@ -30413,7 +30430,7 @@ snapshots:
       doublearray: 0.0.2
       zlibjs: 0.3.1
 
-  langchain@0.3.6(@langchain/core@0.3.22(openai@4.73.0(encoding@0.1.13)(zod@3.23.8)))(axios@1.7.8)(encoding@0.1.13)(handlebars@4.7.8)(openai@4.73.0(encoding@0.1.13)(zod@3.23.8)):
+  langchain@0.3.6(@langchain/core@0.3.22(openai@4.73.0(encoding@0.1.13)(zod@3.23.8)))(axios@1.7.8)(cheerio@1.0.0-rc.12)(encoding@0.1.13)(handlebars@4.7.8)(openai@4.73.0(encoding@0.1.13)(zod@3.23.8)):
     dependencies:
       '@langchain/core': 0.3.22(openai@4.73.0(encoding@0.1.13)(zod@3.23.8))
       '@langchain/openai': 0.3.14(@langchain/core@0.3.22(openai@4.73.0(encoding@0.1.13)(zod@3.23.8)))(encoding@0.1.13)
@@ -30430,6 +30447,7 @@ snapshots:
       zod-to-json-schema: 3.23.5(zod@3.23.8)
     optionalDependencies:
       axios: 1.7.8(debug@4.4.0)
+      cheerio: 1.0.0-rc.12
       handlebars: 4.7.8
     transitivePeerDependencies:
       - encoding
@@ -33079,6 +33097,14 @@ snapshots:
       '@csstools/utilities': 2.0.0(postcss@8.4.49)
       postcss: 8.4.49
 
+  postcss-load-config@4.0.2(postcss@8.4.49)(ts-node@10.9.2(@swc/core@1.10.1(@swc/helpers@0.5.15))(@types/node@20.17.9)(typescript@5.6.3)):
+    dependencies:
+      lilconfig: 3.1.3
+      yaml: 2.6.1
+    optionalDependencies:
+      postcss: 8.4.49
+      ts-node: 10.9.2(@swc/core@1.10.1(@swc/helpers@0.5.15))(@types/node@20.17.9)(typescript@5.6.3)
+
   postcss-load-config@4.0.2(postcss@8.4.49)(ts-node@10.9.2(@swc/core@1.10.1(@swc/helpers@0.5.15))(@types/node@22.8.4)(typescript@5.6.3)):
     dependencies:
       lilconfig: 3.1.3
@@ -33721,10 +33747,10 @@ snapshots:
       end-of-stream: 1.4.4
       once: 1.4.0
 
-  pumpdotfun-sdk@1.3.2(bufferutil@4.0.8)(encoding@0.1.13)(fastestsmallesttextencoderdecoder@1.0.22)(rollup@4.28.1)(typescript@5.6.3)(utf-8-validate@5.0.10):
+  pumpdotfun-sdk@1.3.2(bufferutil@4.0.8)(encoding@0.1.13)(fastestsmallesttextencoderdecoder@1.0.22)(rollup@2.79.2)(typescript@5.6.3)(utf-8-validate@5.0.10):
     dependencies:
       '@coral-xyz/anchor': 0.30.1(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10)
-      '@rollup/plugin-json': 6.1.0(rollup@4.28.1)
+      '@rollup/plugin-json': 6.1.0(rollup@2.79.2)
       '@solana/spl-token': 0.4.6(@solana/web3.js@1.95.8(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10))(bufferutil@4.0.8)(encoding@0.1.13)(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.6.3)(utf-8-validate@5.0.10)
       '@solana/web3.js': 1.95.8(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10)
     transitivePeerDependencies:
@@ -33895,7 +33921,7 @@ snapshots:
       minimist: 1.2.8
       strip-json-comments: 2.0.1
 
-  react-dev-utils@12.0.1(eslint@9.16.0(jiti@2.4.0))(typescript@5.6.3)(webpack@5.97.1(@swc/core@1.10.1(@swc/helpers@0.5.15))):
+  react-dev-utils@12.0.1(eslint@8.57.1)(typescript@5.6.3)(webpack@5.97.1(@swc/core@1.10.1(@swc/helpers@0.5.15))):
     dependencies:
       '@babel/code-frame': 7.26.2
       address: 1.2.2
@@ -33906,7 +33932,7 @@ snapshots:
       escape-string-regexp: 4.0.0
       filesize: 8.0.7
       find-up: 5.0.0
-      fork-ts-checker-webpack-plugin: 6.5.3(eslint@9.16.0(jiti@2.4.0))(typescript@5.6.3)(webpack@5.97.1(@swc/core@1.10.1(@swc/helpers@0.5.15)))
+      fork-ts-checker-webpack-plugin: 6.5.3(eslint@8.57.1)(typescript@5.6.3)(webpack@5.97.1(@swc/core@1.10.1(@swc/helpers@0.5.15)))
       global-modules: 2.0.0
       globby: 11.1.0
       gzip-size: 6.0.0
@@ -35337,6 +35363,33 @@ snapshots:
     dependencies:
       tailwindcss: 3.4.15(ts-node@10.9.2(@swc/core@1.10.1(@swc/helpers@0.5.15))(@types/node@22.8.4)(typescript@5.6.3))
 
+  tailwindcss@3.4.15(ts-node@10.9.2(@swc/core@1.10.1(@swc/helpers@0.5.15))(@types/node@20.17.9)(typescript@5.6.3)):
+    dependencies:
+      '@alloc/quick-lru': 5.2.0
+      arg: 5.0.2
+      chokidar: 3.6.0
+      didyoumean: 1.2.2
+      dlv: 1.1.3
+      fast-glob: 3.3.2
+      glob-parent: 6.0.2
+      is-glob: 4.0.3
+      jiti: 1.21.6
+      lilconfig: 2.1.0
+      micromatch: 4.0.8
+      normalize-path: 3.0.0
+      object-hash: 3.0.0
+      picocolors: 1.1.1
+      postcss: 8.4.49
+      postcss-import: 15.1.0(postcss@8.4.49)
+      postcss-js: 4.0.1(postcss@8.4.49)
+      postcss-load-config: 4.0.2(postcss@8.4.49)(ts-node@10.9.2(@swc/core@1.10.1(@swc/helpers@0.5.15))(@types/node@20.17.9)(typescript@5.6.3))
+      postcss-nested: 6.2.0(postcss@8.4.49)
+      postcss-selector-parser: 6.1.2
+      resolve: 1.22.8
+      sucrase: 3.35.0
+    transitivePeerDependencies:
+      - ts-node
+
   tailwindcss@3.4.15(ts-node@10.9.2(@swc/core@1.10.1(@swc/helpers@0.5.15))(@types/node@22.8.4)(typescript@5.6.3)):
     dependencies:
       '@alloc/quick-lru': 5.2.0
@@ -35635,26 +35688,7 @@ snapshots:
 
   ts-interface-checker@0.1.13: {}
 
-  ts-jest@29.2.5(@babel/core@7.26.0)(@jest/transform@29.7.0)(@jest/types@29.6.3)(babel-jest@29.7.0(@babel/core@7.26.0))(jest@29.7.0(@types/node@20.17.9))(typescript@5.6.3):
-    dependencies:
-      bs-logger: 0.2.6
-      ejs: 3.1.10
-      fast-json-stable-stringify: 2.1.0
-      jest: 29.7.0(@types/node@20.17.9)
-      jest-util: 29.7.0
-      json5: 2.2.3
-      lodash.memoize: 4.1.2
-      make-error: 1.3.6
-      semver: 7.6.3
-      typescript: 5.6.3
-      yargs-parser: 21.1.1
-    optionalDependencies:
-      '@babel/core': 7.26.0
-      '@jest/transform': 29.7.0
-      '@jest/types': 29.6.3
-      babel-jest: 29.7.0(@babel/core@7.26.0)
-
-  ts-jest@29.2.5(@babel/core@7.26.0)(@jest/transform@29.7.0)(@jest/types@29.6.3)(babel-jest@29.7.0(@babel/core@7.26.0))(jest@29.7.0(@types/node@22.8.4)(ts-node@10.9.2(@swc/core@1.10.1(@swc/helpers@0.5.15))(@types/node@22.8.4)(typescript@5.6.3)))(typescript@5.6.3):
+  ts-jest@29.2.5(@babel/core@7.26.0)(@jest/transform@29.7.0)(@jest/types@29.6.3)(babel-jest@29.7.0(@babel/core@7.26.0))(esbuild@0.24.0)(jest@29.7.0(@types/node@22.8.4)(ts-node@10.9.2(@swc/core@1.10.1(@swc/helpers@0.5.15))(@types/node@22.8.4)(typescript@5.6.3)))(typescript@5.6.3):
     dependencies:
       bs-logger: 0.2.6
       ejs: 3.1.10
@@ -35672,8 +35706,49 @@ snapshots:
       '@jest/transform': 29.7.0
       '@jest/types': 29.6.3
       babel-jest: 29.7.0(@babel/core@7.26.0)
+      esbuild: 0.24.0
+
+  ts-jest@29.2.5(@babel/core@7.26.0)(@jest/transform@29.7.0)(@jest/types@29.6.3)(babel-jest@29.7.0(@babel/core@7.26.0))(jest@29.7.0(@types/node@20.17.9)(ts-node@10.9.2(@swc/core@1.10.1(@swc/helpers@0.5.15))(@types/node@20.17.9)(typescript@5.6.3)))(typescript@5.6.3):
+    dependencies:
+      bs-logger: 0.2.6
+      ejs: 3.1.10
+      fast-json-stable-stringify: 2.1.0
+      jest: 29.7.0(@types/node@20.17.9)(ts-node@10.9.2(@swc/core@1.10.1(@swc/helpers@0.5.15))(@types/node@20.17.9)(typescript@5.6.3))
+      jest-util: 29.7.0
+      json5: 2.2.3
+      lodash.memoize: 4.1.2
+      make-error: 1.3.6
+      semver: 7.6.3
+      typescript: 5.6.3
+      yargs-parser: 21.1.1
+    optionalDependencies:
+      '@babel/core': 7.26.0
+      '@jest/transform': 29.7.0
+      '@jest/types': 29.6.3
+      babel-jest: 29.7.0(@babel/core@7.26.0)
 
   ts-mixer@6.0.4: {}
+
+  ts-node@10.9.2(@swc/core@1.10.1(@swc/helpers@0.5.15))(@types/node@20.17.9)(typescript@5.6.3):
+    dependencies:
+      '@cspotcode/source-map-support': 0.8.1
+      '@tsconfig/node10': 1.0.11
+      '@tsconfig/node12': 1.0.11
+      '@tsconfig/node14': 1.0.3
+      '@tsconfig/node16': 1.0.4
+      '@types/node': 20.17.9
+      acorn: 8.14.0
+      acorn-walk: 8.3.4
+      arg: 4.1.3
+      create-require: 1.1.1
+      diff: 4.0.2
+      make-error: 1.3.6
+      typescript: 5.6.3
+      v8-compile-cache-lib: 3.0.1
+      yn: 3.1.1
+    optionalDependencies:
+      '@swc/core': 1.10.1(@swc/helpers@0.5.15)
+    optional: true
 
   ts-node@10.9.2(@swc/core@1.10.1(@swc/helpers@0.5.15))(@types/node@22.8.4)(typescript@5.6.3):
     dependencies:
@@ -36255,12 +36330,30 @@ snapshots:
       - utf-8-validate
       - zod
 
-  vite-node@2.1.4(@types/node@22.8.4)(terser@5.37.0):
+  vite-node@2.1.4(@types/node@20.17.9)(terser@5.37.0):
     dependencies:
       cac: 6.7.14
       debug: 4.4.0(supports-color@5.5.0)
       pathe: 1.1.2
-      vite: 5.4.11(@types/node@22.8.4)(terser@5.37.0)
+      vite: 5.4.11(@types/node@20.17.9)(terser@5.37.0)
+    transitivePeerDependencies:
+      - '@types/node'
+      - less
+      - lightningcss
+      - sass
+      - sass-embedded
+      - stylus
+      - sugarss
+      - supports-color
+      - terser
+
+  vite-node@2.1.5(@types/node@20.17.9)(terser@5.37.0):
+    dependencies:
+      cac: 6.7.14
+      debug: 4.4.0(supports-color@5.5.0)
+      es-module-lexer: 1.5.4
+      pathe: 1.1.2
+      vite: 5.4.11(@types/node@20.17.9)(terser@5.37.0)
     transitivePeerDependencies:
       - '@types/node'
       - less
@@ -36290,9 +36383,9 @@ snapshots:
       - supports-color
       - terser
 
-  vite-plugin-top-level-await@1.4.4(@swc/helpers@0.5.15)(rollup@4.28.1)(vite@client+@tanstack+router-plugin+vite):
+  vite-plugin-top-level-await@1.4.4(@swc/helpers@0.5.15)(rollup@2.79.2)(vite@client+@tanstack+router-plugin+vite):
     dependencies:
-      '@rollup/plugin-virtual': 3.0.2(rollup@4.28.1)
+      '@rollup/plugin-virtual': 3.0.2(rollup@2.79.2)
       '@swc/core': 1.10.1(@swc/helpers@0.5.15)
       uuid: 10.0.0
       vite: link:client/@tanstack/router-plugin/vite
@@ -36304,6 +36397,16 @@ snapshots:
     dependencies:
       vite: link:client/@tanstack/router-plugin/vite
 
+  vite@5.4.11(@types/node@20.17.9)(terser@5.37.0):
+    dependencies:
+      esbuild: 0.21.5
+      postcss: 8.4.49
+      rollup: 4.28.1
+    optionalDependencies:
+      '@types/node': 20.17.9
+      fsevents: 2.3.3
+      terser: 5.37.0
+
   vite@5.4.11(@types/node@22.8.4)(terser@5.37.0):
     dependencies:
       esbuild: 0.21.5
@@ -36314,10 +36417,10 @@ snapshots:
       fsevents: 2.3.3
       terser: 5.37.0
 
-  vitest@2.1.4(@types/node@22.8.4)(jsdom@25.0.1(bufferutil@4.0.8)(canvas@2.11.2(encoding@0.1.13))(utf-8-validate@5.0.10))(terser@5.37.0):
+  vitest@2.1.4(@types/node@20.17.9)(jsdom@25.0.1(bufferutil@4.0.8)(canvas@2.11.2(encoding@0.1.13))(utf-8-validate@5.0.10))(terser@5.37.0):
     dependencies:
       '@vitest/expect': 2.1.4
-      '@vitest/mocker': 2.1.4(vite@5.4.11(@types/node@22.8.4)(terser@5.37.0))
+      '@vitest/mocker': 2.1.4(vite@5.4.11(@types/node@20.17.9)(terser@5.37.0))
       '@vitest/pretty-format': 2.1.8
       '@vitest/runner': 2.1.4
       '@vitest/snapshot': 2.1.4
@@ -36333,11 +36436,47 @@ snapshots:
       tinyexec: 0.3.1
       tinypool: 1.0.2
       tinyrainbow: 1.2.0
-      vite: 5.4.11(@types/node@22.8.4)(terser@5.37.0)
-      vite-node: 2.1.4(@types/node@22.8.4)(terser@5.37.0)
+      vite: 5.4.11(@types/node@20.17.9)(terser@5.37.0)
+      vite-node: 2.1.4(@types/node@20.17.9)(terser@5.37.0)
       why-is-node-running: 2.3.0
     optionalDependencies:
-      '@types/node': 22.8.4
+      '@types/node': 20.17.9
+      jsdom: 25.0.1(bufferutil@4.0.8)(canvas@2.11.2(encoding@0.1.13))(utf-8-validate@5.0.10)
+    transitivePeerDependencies:
+      - less
+      - lightningcss
+      - msw
+      - sass
+      - sass-embedded
+      - stylus
+      - sugarss
+      - supports-color
+      - terser
+
+  vitest@2.1.5(@types/node@20.17.9)(jsdom@25.0.1(bufferutil@4.0.8)(canvas@2.11.2(encoding@0.1.13))(utf-8-validate@5.0.10))(terser@5.37.0):
+    dependencies:
+      '@vitest/expect': 2.1.5
+      '@vitest/mocker': 2.1.5(vite@5.4.11(@types/node@20.17.9)(terser@5.37.0))
+      '@vitest/pretty-format': 2.1.8
+      '@vitest/runner': 2.1.5
+      '@vitest/snapshot': 2.1.5
+      '@vitest/spy': 2.1.5
+      '@vitest/utils': 2.1.5
+      chai: 5.1.2
+      debug: 4.4.0(supports-color@5.5.0)
+      expect-type: 1.1.0
+      magic-string: 0.30.15
+      pathe: 1.1.2
+      std-env: 3.8.0
+      tinybench: 2.9.0
+      tinyexec: 0.3.1
+      tinypool: 1.0.2
+      tinyrainbow: 1.2.0
+      vite: 5.4.11(@types/node@20.17.9)(terser@5.37.0)
+      vite-node: 2.1.5(@types/node@20.17.9)(terser@5.37.0)
+      why-is-node-running: 2.3.0
+    optionalDependencies:
+      '@types/node': 20.17.9
       jsdom: 25.0.1(bufferutil@4.0.8)(canvas@2.11.2(encoding@0.1.13))(utf-8-validate@5.0.10)
     transitivePeerDependencies:
       - less
