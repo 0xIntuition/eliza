@@ -4,25 +4,38 @@ import subprocess
 import os
 import signal
 import atexit
-import uvicorn
+import logging
+import sys
 
-app = FastAPI()
+# Configure logging
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
+
+app = FastAPI(title="Eliza Agent")
 
 # Start the Node.js server as a subprocess
 node_process = None
 
 def start_node_server():
     global node_process
-    env = os.environ.copy()
-    env['NODE_ENV'] = 'production'
-    node_process = subprocess.Popen(
-        ['pnpm', 'start', '--server-only'],
-        cwd=os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
-        env=env
-    )
+    try:
+        env = os.environ.copy()
+        env['NODE_ENV'] = 'production'
+        node_process = subprocess.Popen(
+            ['pnpm', 'start'],
+            cwd=os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
+            env=env,
+            stdout=subprocess.PIPE,
+            stderr=subprocess.PIPE
+        )
+        logger.info("Node.js server started successfully")
+    except Exception as e:
+        logger.error(f"Failed to start Node.js server: {e}")
+        sys.exit(1)
 
 def cleanup():
     if node_process:
+        logger.info("Shutting down Node.js server")
         node_process.send_signal(signal.SIGTERM)
         node_process.wait()
 
@@ -34,12 +47,9 @@ async def startup_event():
 
 @app.get("/health")
 async def health():
-    return {"status": "ok"}
-
-@app.api_route("/{path:path}", methods=["GET", "POST", "PUT", "DELETE"])
-async def proxy(request: Request, path: str):
-    # Forward all requests to the Node.js server
-    return JSONResponse({"error": "Please use the Node.js endpoints directly"})
-
-if __name__ == "__main__":
-    uvicorn.run(app, host="0.0.0.0", port=int(os.environ.get("PORT", 3000)))
+    if node_process and node_process.poll() is None:
+        return {"status": "ok", "node_server": "running"}
+    return JSONResponse(
+        status_code=500,
+        content={"status": "error", "node_server": "not running"}
+    )
