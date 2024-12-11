@@ -24,7 +24,12 @@ WORKDIR /app
 # Copy Python app and requirements
 COPY app ./app
 COPY requirements.txt .
-RUN pip install --no-cache-dir -r requirements.txt
+COPY pyproject.toml poetry.lock ./
+
+# Install Python dependencies using poetry
+RUN pip install poetry && \
+    poetry config virtualenvs.create false && \
+    poetry install --no-dev
 
 # Copy Node.js build artifacts and dependencies
 COPY --from=node-builder /app/dist ./dist
