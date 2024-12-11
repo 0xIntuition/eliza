@@ -9,7 +9,10 @@ import sys
 import json
 
 # Configure logging
-logging.basicConfig(level=logging.INFO)
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+)
 logger = logging.getLogger(__name__)
 
 app = FastAPI(title="Eliza Agent")
@@ -35,14 +38,25 @@ def start_node_server():
     try:
         env = os.environ.copy()
         env['NODE_ENV'] = 'production'
+        # Use npm directly since we're in the Docker container
         node_process = subprocess.Popen(
-            ['pnpm', 'start'],
+            ['npm', 'start'],
             cwd=os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
             env=env,
             stdout=subprocess.PIPE,
             stderr=subprocess.PIPE
         )
         logger.info("Node.js server started successfully")
+
+        # Log output from Node.js process
+        def log_output(pipe, prefix):
+            for line in iter(pipe.readline, b''):
+                logger.info(f"{prefix}: {line.decode().strip()}")
+
+        import threading
+        threading.Thread(target=log_output, args=(node_process.stdout, "NODE")).start()
+        threading.Thread(target=log_output, args=(node_process.stderr, "NODE ERROR")).start()
+
     except Exception as e:
         logger.error(f"Failed to start Node.js server: {e}")
         sys.exit(1)
@@ -57,10 +71,12 @@ atexit.register(cleanup)
 
 @app.on_event("startup")
 async def startup_event():
+    logger.info("Starting Eliza Agent...")
     character_config = load_character_config()
     if not character_config:
         logger.error("Failed to load character configuration")
         sys.exit(1)
+    logger.info("Character configuration loaded successfully")
 
     start_node_server()
     logger.info("Core systems initialized successfully")
@@ -81,3 +97,7 @@ async def health():
         status_code=500,
         content={"status": "error", "node_server": "not running"}
     )
+
+if __name__ == "__main__":
+    import uvicorn
+    uvicorn.run(app, host="0.0.0.0", port=8080)
